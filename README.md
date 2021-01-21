@@ -5,7 +5,7 @@
 # 2AF_FRAUD_DETECTION
 REST API for FRAUD DETECTION
 
-8 steps for Finding Fraud Rings Using Graph Technology
+### 8 steps for Finding Fraud Rings Using Graph Technology
 
 The steps below are just one example. Your approach will vary depending on your goals and the data itself.
 
