@@ -44,7 +44,7 @@ def predict_new_transaction():
     vec = pd.DataFrame([request.json])
     with open(filename, 'rb') as file:
         loaded_model = pickle.load(file)
-    res = str(loaded_model.predict(vec[0]))
+    res = str(loaded_model.predict(vec))
     result = [
     {'id': 0,
      'prediction': res} ]
